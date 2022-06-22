@@ -1,0 +1,243 @@
+.chaoshi-nav{
+  height: 37px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  >.first{
+    display: flex;
+    >li{
+      width: 64px;
+      height: 36px;
+      font-weight: bold;
+      line-height: 36px;
+      text-align: center;
+
+      &:first-child{
+        width: 240px;
+        height: 36px;
+        background-color: black;
+        line-height: 36px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none; 
+             &:hover .second{
+        display: block;
+      }
+        >a{
+          color: white;
+        }
+        //hover出现二级菜单
+        
+        // 二级
+        >.second{
+            display: none;
+            background-color: white;
+            z-index: 3;
+            position: absolute;
+            >li{
+           width: 240px;
+           height: 75px;
+           box-sizing: border-box;
+           border: 1px solid #ccc;
+           position: relative;
+           &:hover{
+            background-color: #d81e06;
+            >p{
+              color: white;
+            }
+            >span{
+              color:white
+            }
+            .third-father{
+              display: block;
+            }
+           }
+           >.icon{
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top:6px;
+            left:3px;
+           }
+           >.icon2{
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top:8px;
+            right:10px;
+           }
+           >p{
+            a{
+             text-align: left;
+             font-size: 14px;
+             margin-left: -115px;
+             color: black;
+           }
+           }
+           >span{
+            a{
+              font-size: 12px;
+              color: #ccc;
+              text-align: left;
+              margin-right: 5px;
+            }
+           }
+
+          //  三级
+          .third-father{
+            display: none;
+            >.third{
+             background-color: white;
+            border: 2px solid red;
+            position: absolute;
+            top:0px;
+            left: 239px;
+            // width: 300px;
+            display: flex;
+            z-index: 3;
+            >li{
+              width: 200px;
+              padding: 20px;
+              border-right: 1px solid #ccc;
+              >div{
+                margin-bottom: 10px;
+              >p{
+                font-size: 12px;
+                font-weight: bold;
+                display: flex;
+                line-height: 23px;
+                a{
+                  color: black;
+                  &:hover{
+                    color: red;
+
+                  }
+                }
+                >span{
+                  font-weight: 400;
+                  &:nth-child(2){
+                    margin:5px 5px 0px 5px;
+                    height: 12px;
+                    width: 1px;
+                    background-color: #ccc;
+                  }
+                }
+              }
+            }
+            }
+            >.li4{
+              width: 200px;
+              background-color: #eee;
+              >div{
+                >p{
+                  >span{
+                    >a{
+                      display: block;
+                      width: 48px;
+                    }
+                    >.a1{
+                      margin-top: -5px;
+                    }
+                  }
+                }
+                img{
+                  margin-top: 70px;
+                  margin-left: -18px;
+                }
+              }
+
+            }
+           }
+          }
+         }
+       }
+      }
+      >a{
+       color: black;
+       text-decoration: none;
+      }
+    }
+    
+  }
+  .right{
+    .kuang{
+      width: 204px;
+      height: 33px;
+      padding: 0px 18px;
+      background-color: #bf0000;
+      display: flex;
+      position: relative;
+      &:hover{
+        width: 240px;
+        transition: width 1s;
+        .kuang-son{
+          border: 5px solid ;
+          border-color:transparent #e22b40 #e22b40 #e22b40;
+          height: 350px;
+          transition: all 0.3s 1s;
+          .message{
+            visibility:visible;
+            transition: all 1s linear 1s;
+          }
+        }
+      }
+      .bgc{
+        width: 36px;
+        height: 36px;
+        background-color: #333;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        position: absolute;
+        top:0px;
+        left: -17px;
+        svg{
+          width: 20px;
+          height: 20px;
+        }
+      }
+      a{
+        color: white;
+        line-height: 33px;
+        font-size: 12px;
+        text-decoration: none;
+        margin-right: 10px;
+        strong{
+          color: #fcff00;
+          font-size: 20px;
+        line-height: 33px;
+
+        }
+      }
+      .sjx{
+       border: 5px solid;
+        border-color: white transparent transparent transparent;
+        position: absolute;
+        top:15px;
+        right:5px;
+      }
+      .kuang-son{
+        width:240px;
+        // height: 350px;
+        height:0px;
+        
+        position: absolute;
+        top:33px;
+        left: -2px;
+     
+        .message{
+          background-color: #eee;
+          visibility: hidden;
+          ul{
+            display: flex;
+            li{
+              width:60px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

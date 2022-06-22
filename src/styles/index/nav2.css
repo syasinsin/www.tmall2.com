@@ -1,0 +1,37 @@
+.nav2 {
+  height: 43px;
+}
+.nav2 .nav2-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 43px;
+}
+.nav2 .nav2-wrapper h2 {
+  color: #fe0137;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 18px;
+}
+.nav2 .nav2-wrapper img {
+  width: 100px;
+  height: 30px;
+  margin-right: 16px;
+}
+.nav2 .nav2-wrapper .img1 {
+  margin-left: 187px;
+}
+.nav2 .nav2-wrapper ul {
+  display: flex;
+  align-items: center;
+}
+.nav2 .nav2-wrapper ul li {
+  margin-right: 16px ;
+}
+.nav2 .nav2-wrapper ul li a {
+  font-size: 14px;
+  color: black;
+}
+.nav2 .nav2-wrapper ul li a:hover {
+  color: red;
+}

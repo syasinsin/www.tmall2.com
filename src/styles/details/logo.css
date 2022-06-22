@@ -1,0 +1,77 @@
+.logo .logo-wrapper {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo .logo-wrapper img {
+  width: 130px;
+  height: 48px;
+  margin-top: 16px;
+}
+.logo .logo-wrapper .J_AreaSelector {
+  width: 77px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo .logo-wrapper .J_AreaSelector h3 {
+  color: #30b30e;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+.logo .logo-wrapper .J_AreaSelector .icon {
+  width: 15px;
+  height: 15px;
+}
+.logo .logo-wrapper .mallSearch {
+  width: 390px;
+  height: 36px;
+  border: 3px solid #30b30e;
+  display: flex;
+  justify-content: space-between;
+}
+.logo .logo-wrapper .mallSearch input {
+  text-indent: 1rem;
+}
+.logo .logo-wrapper .mallSearch .search-btn {
+  width: 90px;
+  height: 31px;
+  background-color: #30b30e;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+.logo .logo-wrapper .header-banner {
+  width: 410px;
+  height: 79px;
+  display: flex;
+}
+.logo .logo-wrapper .header-banner ul {
+  display: flex;
+  align-items: center;
+}
+.logo .logo-wrapper .header-banner ul li {
+  width: 125px;
+  height: 24px;
+  align-items: center;
+  display: flex;
+}
+.logo .logo-wrapper .header-banner ul li a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #666;
+}
+.logo .logo-wrapper .header-banner ul li a svg {
+  width: 15px;
+  height: 15px;
+}
+.logo .logo-wrapper .header-banner ul li img {
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+}

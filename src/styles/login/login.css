@@ -1,0 +1,231 @@
+.header {
+  height: 43px;
+}
+.header .header-wrapper {
+  padding: 10px 0px 22px 0px;
+}
+.header .header-wrapper img {
+  height: 26px;
+  width: 186px;
+}
+.banner {
+  width: 100%;
+  height: 600px;
+  background: url(../../img/login/背景图.jpg) no-repeat 0 0 / cover;
+}
+.banner .banner-wrapper {
+  position: relative;
+}
+.banner .banner-wrapper .login-box {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  width: 350px;
+  height: 350px;
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+.banner .banner-wrapper .login-box .safe {
+  padding: 5px 10px;
+  background-color: #fefcee;
+  position: absolute;
+  top: 5px;
+  left: 185px;
+  border: 1px solid #f3d995;
+  font-size: 12px;
+  color: #ff9000;
+}
+.banner .banner-wrapper .login-box .div-div > ul > .qr {
+  visibility: hidden;
+}
+.banner .banner-wrapper .login-box .div-div > ul > .qr > .icon {
+  width: 52px;
+  height: 52px;
+  margin-left: 300px;
+}
+.banner .banner-wrapper .login-box .div-div > ul > .visibility {
+  visibility: visible;
+}
+.banner .banner-wrapper .login-box .div-div .box {
+  width: 300px;
+  height: 37px;
+  display: none;
+}
+.banner .banner-wrapper .login-box .div-div .box ul {
+  margin-top: 20px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+.banner .banner-wrapper .login-box .div-div .box ul li {
+  margin-left: 10px;
+  color: black;
+  font-weight: bolder;
+  display: block;
+}
+.banner .banner-wrapper .login-box .div-div .box ul li:hover {
+  cursor: pointer;
+}
+.banner .banner-wrapper .login-box .div-div .box ul .active {
+  border-bottom: 2px solid black;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab {
+  margin-left: 20px;
+  width: 300px;
+  height: 240px;
+  display: none;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field {
+  display: flex;
+  padding: 0px 10px;
+  margin: 10px 0px 20px 0px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field > .fm-label-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field > .fm-label-icon svg {
+  width: 20px;
+  height: 20px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field > .area86 select {
+  width: 68px;
+  height: 45px;
+  padding: 0px 5px 0px 10px;
+  border: none;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field input {
+  width: 250px;
+  color: #ccc;
+  text-indent: 8px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .fm-field > span {
+  margin-top: 14px;
+  width: 80px;
+  color: #6c6c6c;
+  font-size: 12px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .login-logo > svg {
+  width: 15px;
+  height: 15px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .login-logo > span {
+  font-size: 12px;
+}
+.banner .banner-wrapper .login-box .div-div .box .tab > .forget {
+  color: #6c6c6c;
+  margin-top: 20px;
+  margin-left: 148px;
+  font-size: 12px;
+}
+.banner .banner-wrapper .login-box .div-div .box > .display {
+  display: block;
+}
+.banner .banner-wrapper .login-box .div-div .box > img {
+  width: 130px;
+  height: 130px;
+}
+.banner .banner-wrapper .login-box .div-div .box > .scan > svg {
+  width: 20px;
+  height: 20px;
+}
+.banner .banner-wrapper .login-box .div-div > .display {
+  display: block;
+}
+.banner .banner-wrapper .login-box .block {
+  width: 0px;
+  height: 0px;
+  border: 26px solid transparent;
+  border-color: transparent transparent #fff #fff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.footer {
+  height: 243px;
+  margin-top: 60px;
+}
+.footer > .wrapper > .footer-hd {
+  border-top: 1px solid #ccc;
+  height: 36px;
+  width: 100%;
+}
+.footer > .wrapper > .footer-hd > ul {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+}
+.footer > .wrapper > .footer-hd > ul > li {
+  float: left;
+  margin-right: 10px;
+}
+.footer > .wrapper > .footer-hd > ul > li > a {
+  font-size: 14px;
+  color: #6c6c6c;
+  padding-right: 5px;
+  position: relative;
+}
+.footer > .wrapper > .footer-hd > ul > li > a::after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  content: '';
+  width: 1px;
+  height: 14px;
+  background-color: #ccc;
+  margin: 4px -3px 0px 0px;
+}
+.footer > .wrapper > .footer-hd > ul > li > a a:last-child {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  content: '';
+  width: 0px;
+  height: 14px;
+}
+.footer > .wrapper > .footer-bd {
+  border-top: 1px solid #ccc;
+  height: 122px;
+  width: 100%;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.footer > .wrapper > .footer-bd > ul {
+  width: 100%;
+  height: 26px;
+}
+.footer > .wrapper > .footer-bd > ul > li {
+  float: left;
+  margin-right: 10px;
+}
+.footer > .wrapper > .footer-bd > ul > li > a {
+  font-size: 12px;
+  color: #6c6c6c;
+  padding-right: 5px;
+  position: relative;
+}
+.footer > .wrapper > .footer-bd > ul > li > a::after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  content: '';
+  width: 1px;
+  height: 14px;
+  background-color: #ccc;
+  margin: 4px -3px 0px 0px;
+}
+.footer > .wrapper > .footer-bd > ul > li > a a:last-child {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  content: '';
+  width: 0px;
+  height: 14px;
+}

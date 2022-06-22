@@ -1,0 +1,124 @@
+.font {
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+.international {
+  height: 691px;
+}
+.international .international-wrapper {
+  background-color: white;
+  padding: 25px 18px 0px 18px;
+}
+.international .international-wrapper .img-box img {
+  width: 106px;
+  height: 33px;
+  margin-bottom: 20px;
+}
+.international .international-wrapper .content-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.international .international-wrapper .content-box .content1 {
+  position: relative;
+}
+.international .international-wrapper .content-box .content1 img {
+  width: 222px;
+  height: 301px;
+  border-radius: 15px;
+}
+.international .international-wrapper .content-box .content1 .text {
+  width: 190px;
+  height: 72px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 204px;
+  left: 0px;
+}
+.international .international-wrapper .content-box .content1 .text .lower {
+  width: 36px;
+  height: 50px;
+  margin-top: 14px;
+  margin-left: 12px;
+  font-size: 16px;
+}
+.international .international-wrapper .content-box .content1 .text .buy {
+  width: 72px;
+  height: 72px;
+}
+.international .international-wrapper .content-box .content1 .text .buy .p1 {
+  margin-top: 13px;
+  font-size: 16px;
+}
+.international .international-wrapper .content-box .content1 .text .slash {
+  width: 1px;
+  height: 40px;
+  background-color: hsla(0, 0%, 59.2%, 0.4);
+  margin: 16px 20px 0px 20px;
+}
+.international .international-wrapper .content-box .content2 {
+  width: 220px;
+  height: 330px;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.international .international-wrapper .content-box .content2 img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+.international .international-wrapper .content-box .content2 p {
+  margin-top: 12px;
+  font-size: 16px;
+}
+.international .international-wrapper .content-box .content2 span {
+  margin-top: 4px;
+  color: #ff5000;
+  font-size: 14px;
+}
+.international .international-wrapper .content-box .content3 {
+  width: 220px;
+  height: 304px;
+  margin: 0px 7px 12px 0px ;
+}
+.international .international-wrapper .content-box .content3 img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+.international .international-wrapper .content-box .content3 p {
+  margin-top: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 7px;
+}
+.international .international-wrapper .content-box .content3 span {
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  color: #ff5000;
+}
+.international .international-wrapper .content-box .content4 {
+  width: 220px;
+  height: 304px;
+  margin: 0px 14px 12px 14px ;
+}
+.international .international-wrapper .content-box .content4 img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+.international .international-wrapper .content-box .content4 p {
+  margin-top: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 7px;
+}
+.international .international-wrapper .content-box .content4 span {
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  color: #ff5000;
+}

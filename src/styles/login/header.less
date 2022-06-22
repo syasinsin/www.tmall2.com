@@ -1,0 +1,170 @@
+.header{
+  height: 43px;
+  .header-wrapper{
+    padding: 10px 0px 22px 0px;
+    img{
+      height: 26px;
+      width: 186px;
+    }
+  }
+}
+
+.banner{
+  width: 100%;
+  height: 600px;
+  background:url(../../img/login/背景图.jpg) no-repeat 0 0/cover;
+    .banner-wrapper{
+      position: relative;
+      .login-box{
+          position: absolute;
+          top:120px;
+          right:60px;
+          width: 350px;
+          height: 350px;
+          background-color: hsla(0,0%,100%,.9);
+          .safe{
+            padding: 5px 10px;
+            background-color: #fefcee;
+            position: absolute;
+            top:5px;
+            left:185px;
+            border: 1px solid #f3d995;
+            font-size: 12px;
+            color: #ff9000;
+          }
+          .div-div{
+            >ul{
+
+              >.qr{
+                // height: 50px;
+                // position: absolute;
+                 >.icon{
+                  width: 52px;
+                  height: 52px;
+                  margin-left: 300px;
+                 }
+                visibility: hidden;
+                }
+                >.visibility{
+                 visibility: visible;
+                }
+            }
+            
+
+             .box{
+              width: 300px;
+              height: 37px;
+              display: none;
+              ul{
+                margin-top: 20px;
+                padding: 10px 10px;
+                display: flex;
+                align-items: center;
+                li{
+                  margin-left: 10px;
+                  color: black;
+                  font-weight: bolder;
+                  display: block;
+                  &:hover{
+                    cursor: pointer;
+                  }
+                }
+                .active{
+                  border-bottom: 2px solid black;
+                }
+              }
+              .tab{
+              margin-left: 20px;
+              width: 300px;
+              height: 240px;
+              display: none;
+                >.fm-field{
+                  display: flex;
+                  padding: 0px 10px;
+                  margin: 10px 0px 20px 0px;
+                  >.fm-label-icon{
+                    width: 40px;
+                    height: 40px;
+                    background-color: #ccc;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    svg{
+                      width: 20px;
+                      height: 20px;
+                    }
+                  }
+                  //+86区域
+                  >.area86{
+                    select{
+                      width: 68px;
+                      height: 45px;
+                      padding: 0px 5px 0px 10px;
+                      border:none;
+                    }
+                  }
+                  input{
+                    width: 250px;
+                    color: #ccc;
+                    text-indent: 8px;
+                  }
+                  >span{
+                    margin-top: 14px;
+                    width: 80px;
+                    color: #6c6c6c;
+                    font-size: 12px;
+                  }
+                }
+                //微博登录 支付宝登录 
+                >.login-logo{
+                  >svg{
+                    width: 15px;
+                    height: 15px;
+                  }
+                  >span{
+                    font-size: 12px;
+                  }
+                }
+                >.forget{
+                    color: #6c6c6c;
+                    margin-top: 20px;
+                    margin-left: 148px;
+                    font-size: 12px;
+                }
+              }
+              >.display{
+                display: block;
+              }
+              >img{
+                width: 130px;
+                height: 130px;
+              }
+              >.scan{
+                >svg{
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+            >.display{
+              display: block;
+            }
+          } 
+          
+         
+          .block{
+              width: 0px;
+              height: 0px;
+              border: 26px solid transparent;
+              border-color:transparent transparent #fff #fff;
+              // border-color:red;
+              position: absolute;
+              top:0px;
+              right: 0px;
+          }
+      
+       
+        
+    }
+    }
+}

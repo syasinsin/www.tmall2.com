@@ -1,0 +1,19 @@
+.logo {
+  height: 43px;
+}
+.logo .logo-wrapper {
+  height: 43px;
+  padding: 20px 0px ;
+  display: flex;
+  box-sizing: content-box;
+}
+.logo .logo-wrapper img {
+  width: 105px;
+  height: 58px;
+}
+.logo .logo-wrapper h2 {
+  margin-left: 6px;
+  line-height: 43px;
+  margin-top: 10px;
+  font-size: 22px;
+}

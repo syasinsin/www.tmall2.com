@@ -1,0 +1,131 @@
+.logo-box{
+  background-color: white;
+
+  .logo-box-wrapper{
+    height: 80px;
+    margin-bottom: 24px;
+    padding: 11px 0px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      width: 142px;
+      height: 80px;
+    }
+    .search-box{
+      width: 423px;
+      >ul{
+        display: flex;
+        // 宝贝                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+        .first{
+          width: 106px;
+          height: 46px;
+          background-color: #f5f5f5;
+          border-radius: 23px 0px 0px 23px;
+          // text-align: center;
+          // line-height: 46px;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          position: relative;
+          >ul{
+          position: absolute;
+          top:0px;
+          left:0px;
+          z-index: 2;
+          border-radius: 26px 0px 0px 0px;
+          &{
+            visibility: hidden;
+          }
+          &:hover{
+            visibility: visible;
+            >.selected{
+                  border-radius: 26px 0px 0px 0px;
+                }
+                
+          }
+            .icon{
+              position: absolute;
+              top: 12px;
+              left:12px;
+              width: 20px;
+              height: 20px;
+              visibility: visible;
+            }
+            .icon2{
+              position: absolute;
+              top:16px;
+              left:76px;
+              width: 10px;
+              height: 10px;
+              visibility: visible;
+            }
+            // hover效果
+            // &:hover {
+            //   >li{
+            //     opacity: 1;
+            //   }
+            //   >.selected{
+            //     border-radius: 26px 0px 0px 0px;
+            //   }
+            // }
+
+            // display: none;
+            .selected{
+              border-radius: 26px 0px 0px 26px;
+              visibility: visible;
+            }
+            
+            >li{
+              background-color: #f5f5f5;
+              width: 106px;
+              height: 46px;
+              line-height: 42px;
+              text-align: center;
+              // &:not(.selected){
+                // opacity: 0;
+              // }
+              // &:hover ul{
+                //   opacity: 1;
+                // }
+                &:not(.selected):hover{
+                  background-color: white;
+                  color: red;
+                  border: 1px solid #ccc;
+                }
+            }
+          }
+        }
+        }
+        .li-input{
+          width: 233px;
+          background-color: #ccc;
+          display: flex;
+          align-items: center;
+          input{
+          background-color: #ccc;
+          margin-left: 5px;
+          }
+        }
+        .search-btn-box{
+         width: 81px;
+         height: 45px;
+         background-color: #ccc;
+         border-radius: 0px 26px 26px 0px;
+          .search-btn{
+            border-radius: 26px;
+            width: 81px;
+            height: 45px;
+            background-image: -webkit-linear-gradient(left,#ff9000 0,#ff5000 100%);
+            outline: 0;
+            line-height: 45px;
+            text-align: center;
+            color: white;
+            font-weight: 600;
+          }  
+        }
+      }
+    }
+  
+  }

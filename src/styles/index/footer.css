@@ -1,0 +1,102 @@
+.footer {
+  height: 372px;
+}
+.footer .footer-wrapper .top {
+  height: 130px;
+  margin: 25px 0px ;
+  border-bottom: 1px solid #ccc;
+}
+.footer .footer-wrapper .top img {
+  width: 1161px;
+}
+.footer .footer-wrapper .guidence {
+  height: 190px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .footer-wrapper .guidence .ensure {
+  width: 186px;
+  height: 90px;
+  padding-left: 52px;
+}
+.footer .footer-wrapper .guidence .ensure dt {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.footer .footer-wrapper .guidence .ensure dd a {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+.footer .footer-wrapper .guidence .payment {
+  width: 186px;
+  height: 110px;
+  padding-left: 52px;
+}
+.footer .footer-wrapper .guidence .payment dt {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.footer .footer-wrapper .guidence .payment dd a {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+.footer .footer-wrapper .guidence .seller {
+  width: 186px;
+  height: 150px;
+}
+.footer .footer-wrapper .guidence .seller dt {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.footer .footer-wrapper .guidence .seller dd a {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+.footer .footer-wrapper .guidence .mobile {
+  width: 186px;
+  height: 135px;
+  padding-left: 52px;
+}
+.footer .footer-wrapper .guidence .mobile dd {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.footer .footer-wrapper .guidence .mobile dt img {
+  width: 105px;
+  height: 105px;
+}
+.footer .footer-wrapper .guidence .cat-box {
+  position: relative;
+}
+.footer .footer-wrapper .guidence .cat-box .cat {
+  position: absolute;
+  top: 192px;
+  left: -1058px;
+}

@@ -1,0 +1,124 @@
+.reg-box{
+  .reg-box-wrapper{
+    height: 407px;
+   position: relative;
+     .reg-form{
+      width: 380px;
+      height: 304px;
+      // border:1px solid;
+      margin:0 auto;
+      position: absolute;
+      top:180px;
+      left:375px;
+      // 手机号码 验证码
+      .reg-form-item{
+       height: 36px;
+        display: flex;
+        margin-bottom: 15px;
+        label{
+          width: 56px;
+          height: 36px;
+          text-align: right;
+          font-size: 14px;
+          line-height: 36px;
+          color: #111;
+          font-weight: normal;
+          margin-right: 10px;
+        }
+        .am-list-line{
+          width: 308px;
+          height: 34px;
+          border: 1px solid #ccc;
+          display: flex;
+          .am-input-label{
+            width: 126px;
+            height: 32px;
+            padding: 2px 0px;
+            border-right: 1px solid #ccc;
+            font-size: 14px;
+            .country-select{
+              display: flex;
+              padding: 0px 6px;
+              justify-content: space-between;
+              .areaName{
+                line-height: 32px;
+              }
+              .areaCode{
+                display: flex;
+                align-items: center;
+                .select-arrow{
+                  width: 10px;
+                  height: 7px;
+                  margin-top: 10px;
+                  background: url(../../img/reg/选择.png) no-repeat;
+                }
+              }
+            }
+          }
+          .am-input-control{
+            display: flex;
+            align-items: center;
+            input{
+              padding: 2px 0px 2px 10px;
+              color:#111;
+              font-size: 12px;
+            }
+          }
+         .am-input-extra{
+           margin-left: 90px;
+          a{
+            display: inline-block;
+            line-height: 34px;
+            color: #ff5000;
+            font-size: 12px;
+            text-decoration: none;
+          }
+         }
+        }
+      } 
+      // 注册按钮
+      .reg-btn{
+        display: block;
+        width: 320px;
+        height: 36px;
+        line-height: 36px;
+       margin-left: 56px;
+        background-image:-webkit-gradient(linear,left top,right top,from(#f90),to(#ff5000));
+        border-radius: 5px;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        margin-bottom:30px;
+        text-decoration: none;
+      }
+      // agree单选框
+      .fm-agreement{
+        margin-left:56px;
+        display: flex;
+        label{
+          div{
+            font-weight: 400;
+            span{
+              font-size: 12px;
+            }
+            a{
+              text-decoration: none;
+              color: #fd6020;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      //切换企业账号注册
+      .to-email-reg{
+        margin-left: 263px;
+        a{
+          color: #ff5000;
+          font-size: 12px;
+          text-decoration: none;
+        }
+      }
+     }
+  }
+}

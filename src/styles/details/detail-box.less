@@ -1,0 +1,315 @@
+.details-box{
+  height: 780px;
+  .detail-box-wrapper{
+    height: 605px;
+    padding:55px 0px;
+    display: flex;
+    // 左边
+    .img-box{
+      >img{
+        width: 418px;
+        height: 418px;
+      }
+      .img-small{
+        width: 397px;
+        height: 82px;
+        display: flex;
+        justify-content: center;
+        .img-border{ 
+          width: 64px;
+          height: 64px;
+          margin-left: 16px;
+          margin-top: 22px;
+          >img{
+            box-sizing: content-box;
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+        .text{
+          margin-top: 30px;
+          >a{
+            color: #878787;
+            font-size: 14px;
+            svg{
+              width: 15px;
+              height: 15px;
+            }
+            span{
+              font-size: 14px;
+            }
+          }
+          span{font-size: 14px;}
+          >.inform{
+           margin-left: 165px;
+          }
+        }
+      
+    }
+    // 右边
+    .right{
+      margin-left: 20px;
+      >h1{
+        font-size: 16px;
+        font-weight: 700;
+        text-indent: 10px;
+      }
+      >p{
+        font-size: 14px;
+        color: #FF0036;
+        text-indent: 10px;
+        margin-bottom: 15px;
+      }
+      //天猫狂欢
+      >.tcat{
+        width: 500px;
+        height: 50px;
+        background: url(../../img/details/banner.png) no-repeat;
+        display: flex;
+        align-items: center;
+        >img{
+          width: 180px;
+          height: 27px;
+          margin-left: 20px;
+        }
+        p{
+          color: white;
+          font-size: 12px;
+        }
+      }
+      //价格
+      >.banner2{
+        padding: 0px 10px;
+        background: url(../../img/details/banner-2.png) no-repeat;
+        width: 500px;
+        height: 40px;
+        color:rgb(255, 0, 54) ;
+        display: flex;
+        align-items: center;
+        >span{
+         font-weight: bold; 
+         font-size: 12px;
+        }
+        >i{
+          font-size: 20px;
+          margin-left: 30px;
+        }
+        >.price{
+          font-size: 30px;
+          font-weight: 600;
+        }
+        >.recommend{
+          display: block;
+          background-color: #f47a86;
+          width: 48px;
+          height: 16px;
+          color: white;
+          font-weight: 400;
+          margin-left: 7px;
+        }
+      }
+
+      // 运费
+      >.yf{
+        width: 500px;
+        height: 70px;
+        display: flex;
+        margin-top: 30px;
+        >p{
+            width: 70px;
+        } 
+        .yf-right{
+          p{
+            display: flex;
+            >span{
+              margin-right: 5px;
+              >svg{
+                width: 15px;
+                height: 15px;
+              }
+            }
+            a{
+              text-decoration: none;
+              color: black;
+              margin-right: 3px;
+          }
+        }
+      }
+    }
+    //重量
+    >.weight{
+      display: flex;
+      margin-top: 20px;
+      >p{
+        width: 70px;
+      }
+    
+    }
+
+    // 月销量
+    >.sale{
+      width: 500px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      padding:10px 85px;
+      justify-content: space-between;
+      border-top:1px solid #eee ;
+      border-bottom:1px solid #eee ;
+      >p{
+        >span{
+          color: #FF0036;
+        }
+        >.ling{
+          color: #280;
+        }
+      }
+    }
+    //颜色分类
+    >.color{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      p{
+        width: 70px;
+      }
+      .yellow{
+        width: 55px;
+        height: 45px;
+        border: 1px solid #eee;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #FF0036;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    // 净含量
+    .net-content{
+      display: flex;
+      margin-top: 20px;
+      p{
+        width: 70px;
+        margin-top:10px;
+      }
+      .ml1000{
+        width: 75px;
+        height: 45px;
+        border: 1px solid #eee;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #FF0036;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    //数量
+    .number{
+      display: flex;
+      margin-top: 20px;
+      >p{
+        width: 70px;
+      }
+      .number-right{
+        display: flex;
+        input{
+          width: 43px;
+          height: 30px;
+          padding: 3px 2px 3px 0px;
+          border:1px solid #ccc
+        }
+        .number-btn{
+          margin-left: 5px;
+            >p{
+              width: 15px;
+              height: 12px;
+              border: 1px solid #ccc;
+              margin-bottom: 5px;
+            >svg{
+              width: 10px;
+              height: 10px;
+              margin-left: 1px;
+              display: block;
+            }
+          }
+        }
+        >span{
+          margin-top: 5px;
+          margin-left: 30px;
+          font-size: 12px;
+          color: #878787;
+        }
+      }
+    }
+    // 加入超市购物车
+    .add{
+      width: 178px;
+      height: 38px;
+      background-color: #ff0036;
+      border: 1px solid #ff0036;
+      text-align: center;
+      margin-left: 70px;
+      margin-top: 30px;
+      a{
+        text-decoration: none;
+        line-height: 38px;
+        color: #fff;
+      }
+    }
+    //配送范围
+    .area{
+      margin-top: 40px;
+      span{
+        font-size: 12px;
+        font-size: #878787;
+      }
+    }
+    //支付方式
+    .payway{
+      margin-bottom: 40px;
+      position: relative;
+      >p{
+        font-size: 14px;
+        text-align: right;
+        >svg{
+          width: 10px;
+          height: 10px;
+        }
+      }
+      &:hover .second{
+        display: block;
+      }
+      .second{
+        display: none;
+        width: 160px;
+        height: 70px;
+        position: absolute;
+        top:-5px;
+        left: 350px;
+        border: 1px solid #ccc;
+        padding:27px 10px 0px 10px;
+        >p{
+          font-size: 14px;
+          >svg{
+            width: 10px;
+            height: 10px;
+          }
+          >a{
+            margin-right: 7px;
+            color: #878787;
+          }
+        }
+      }
+    }
+  }
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  height: 129px;
+  width: 100%;
+  background-color: #f83c3d;
+}
+.header img {
+  border-radius: 10px;
+  margin-top: 26px;
+  width: 234px;
+  height: 88px;
+}

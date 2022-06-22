@@ -1,0 +1,40 @@
+.supermarket {
+  height: 664px;
+}
+.supermarket .supermarket-wrapper {
+  padding: 35px 18px 0px 18px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.supermarket .supermarket-wrapper .img-box img {
+  width: 106px;
+  height: 33px;
+}
+.supermarket .supermarket-wrapper .context-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.supermarket .supermarket-wrapper .context-box .context {
+  width: 220px;
+  height: 286px;
+  margin-top: 20px;
+}
+.supermarket .supermarket-wrapper .context-box .context img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20px;
+}
+.supermarket .supermarket-wrapper .context-box .context p {
+  margin-top: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.supermarket .supermarket-wrapper .context-box .context span {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  color: #ff5000;
+}

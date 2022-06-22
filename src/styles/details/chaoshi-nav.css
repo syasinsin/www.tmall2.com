@@ -1,0 +1,217 @@
+.chaoshi-nav {
+  height: 37px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.chaoshi-nav > .first {
+  display: flex;
+}
+.chaoshi-nav > .first > li {
+  width: 64px;
+  height: 36px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+}
+.chaoshi-nav > .first > li:first-child {
+  width: 240px;
+  height: 36px;
+  background-color: black;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+.chaoshi-nav > .first > li:first-child:hover .second {
+  display: block;
+}
+.chaoshi-nav > .first > li:first-child > a {
+  color: white;
+}
+.chaoshi-nav > .first > li:first-child > .second {
+  display: none;
+  background-color: white;
+  z-index: 3;
+  position: absolute;
+}
+.chaoshi-nav > .first > li:first-child > .second > li {
+  width: 240px;
+  height: 75px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.chaoshi-nav > .first > li:first-child > .second > li:hover {
+  background-color: #d81e06;
+}
+.chaoshi-nav > .first > li:first-child > .second > li:hover > p {
+  color: white;
+}
+.chaoshi-nav > .first > li:first-child > .second > li:hover > span {
+  color: white;
+}
+.chaoshi-nav > .first > li:first-child > .second > li:hover .third-father {
+  display: block;
+}
+.chaoshi-nav > .first > li:first-child > .second > li > .icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  left: 3px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li > .icon2 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li > p a {
+  text-align: left;
+  font-size: 14px;
+  margin-left: -115px;
+  color: black;
+}
+.chaoshi-nav > .first > li:first-child > .second > li > span a {
+  font-size: 12px;
+  color: #ccc;
+  text-align: left;
+  margin-right: 5px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father {
+  display: none;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third {
+  background-color: white;
+  border: 2px solid red;
+  position: absolute;
+  top: 0px;
+  left: 239px;
+  display: flex;
+  z-index: 3;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div {
+  margin-bottom: 10px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div > p {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  line-height: 23px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div > p a {
+  color: black;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div > p a:hover {
+  color: red;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div > p > span {
+  font-weight: 400;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > li > div > p > span:nth-child(2) {
+  margin: 5px 5px 0px 5px;
+  height: 12px;
+  width: 1px;
+  background-color: #ccc;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > .li4 {
+  width: 200px;
+  background-color: #eee;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > .li4 > div > p > span > a {
+  display: block;
+  width: 48px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > .li4 > div > p > span > .a1 {
+  margin-top: -5px;
+}
+.chaoshi-nav > .first > li:first-child > .second > li .third-father > .third > .li4 > div img {
+  margin-top: 70px;
+  margin-left: -18px;
+}
+.chaoshi-nav > .first > li > a {
+  color: black;
+  text-decoration: none;
+}
+.chaoshi-nav .right .kuang {
+  width: 204px;
+  height: 33px;
+  padding: 0px 18px;
+  background-color: #bf0000;
+  display: flex;
+  position: relative;
+}
+.chaoshi-nav .right .kuang:hover {
+  width: 240px;
+  transition: width 1s;
+}
+.chaoshi-nav .right .kuang:hover .kuang-son {
+  border: 5px solid ;
+  border-color: transparent #e22b40 #e22b40 #e22b40;
+  height: 350px;
+  transition: all 0.3s 1s;
+}
+.chaoshi-nav .right .kuang:hover .kuang-son .message {
+  visibility: visible;
+  transition: all 1s linear 1s;
+}
+.chaoshi-nav .right .kuang .bgc {
+  width: 36px;
+  height: 36px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  position: absolute;
+  top: 0px;
+  left: -17px;
+}
+.chaoshi-nav .right .kuang .bgc svg {
+  width: 20px;
+  height: 20px;
+}
+.chaoshi-nav .right .kuang a {
+  color: white;
+  line-height: 33px;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.chaoshi-nav .right .kuang a strong {
+  color: #fcff00;
+  font-size: 20px;
+  line-height: 33px;
+}
+.chaoshi-nav .right .kuang .sjx {
+  border: 5px solid;
+  border-color: white transparent transparent transparent;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+.chaoshi-nav .right .kuang .kuang-son {
+  width: 240px;
+  height: 0px;
+  position: absolute;
+  top: 33px;
+  left: -2px;
+}
+.chaoshi-nav .right .kuang .kuang-son .message {
+  background-color: #eee;
+  visibility: hidden;
+}
+.chaoshi-nav .right .kuang .kuang-son .message ul {
+  display: flex;
+}
+.chaoshi-nav .right .kuang .kuang-son .message ul li {
+  width: 60px;
+}
