@@ -333,5 +333,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syasinsin/www.tmall2.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syasinsin/www.tmall2.com/issues"
+  },
+  "homepage": "https://github.com/syasinsin/www.tmall2.com#readme",
   "description": ""
 }
