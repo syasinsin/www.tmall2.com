@@ -4,7 +4,6 @@ $.fn.extend({
       ev:'click', // 默认事件
       active:'active', // 默认选项(className)
       display:'display', // 默认显示(className)
-      visibility:'visibility'
     }
 
     $.extend(defaults,options); // 合并对象 合并参数
